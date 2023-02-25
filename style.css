@@ -1,0 +1,143 @@
+body{
+    background-color: rgb(41, 41, 41);
+    font-family: 'Kanit', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 80vw;
+    height: 700px;
+    border-radius: 20px;
+    border: 1px solid #034159;
+    box-shadow: 0px 0px 0px #034159;
+    transition: all .3s;
+}
+
+.content:hover{
+    box-shadow: 0px 0px 30px #034159;
+}
+
+.title-challenge{
+    text-align: center;
+    width: 400px;
+    height: 40px;
+    letter-spacing: 2px;
+    color: #0CF25D;
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.btn-area{
+    margin-bottom: 120px;
+}
+
+#btn-dividir, #btn-multiplicar, #btn-subtrair, #btn-somar, #home-btn, #answer-btn{
+    padding: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-radius: 10px;
+    color: #0CF25D;
+    text-decoration: none;
+    background-color: #034159;
+    transition: all .3s;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+#answer-btn:hover{
+    background-color: #0CF25D;
+    color: #034159;
+    letter-spacing: 2px;
+}
+
+#home-btn:hover{
+    background-color: #0CF25D;
+    color: #034159;
+    letter-spacing: 2px;
+    
+}
+
+#btn-dividir:hover{
+    background-color: #0CF25D;
+    color: #034159;
+    letter-spacing: 2px;
+}
+
+#btn-multiplicar:hover{
+    background-color: #0CF25D;
+    color: #034159;
+    letter-spacing: 2px;
+}
+
+#btn-subtrair:hover{
+    background-color: #0CF25D;
+    color: #034159;
+    letter-spacing: 2px;
+}
+
+#btn-somar:hover{
+    background-color: #0CF25D;
+    color: #034159;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+.input-area{
+    width: 70%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#input-valor1, #input-valor2, #result{
+    width: 100px;
+    height: 20px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    background-color: #034159;
+    color: #0CF25D;
+    padding: 5px;
+}
+
+#valor1, #valor2, #resultado{
+    color: #0CF25D;
+
+}
+
+.primeiro-valor, .segundo-valor, .valor-resultado{
+    margin: 20px;
+}
+
+.answer-area{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.valor-resultado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
